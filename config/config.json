@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "tuandb_d7l4_user_user",
+    "password": "i8Y0OS5oqCQ70Sc2A3M2BolTnrFN5ECc",
+    "database": "tuandb_d7l4_user",
+    "host": "dpg-cljvun6g1b2c739eq4tg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "ssl": true
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "tuandb_d7l4_user_user",
+    "password": "i8Y0OS5oqCQ70Sc2A3M2BolTnrFN5ECc",
+    "database": "tuandb_d7l4_user",
+    "host": "dpg-cljvun6g1b2c739eq4tg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "ssl": true
+  }
+}
